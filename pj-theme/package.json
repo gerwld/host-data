@@ -1,0 +1,21 @@
+{
+  "name": "pj-theme",
+  "displayName": "pj Theme",
+  "description": "Finally, some good theme for VS code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "pjTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pjTheme-color-theme.json"
+      }
+    ]
+  }
+}
